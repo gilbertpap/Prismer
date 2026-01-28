@@ -2,9 +2,11 @@
 
 ## Current Status
 
-### ✅ Completed
+### ✅ Completed & Live
 
-- Paper Reader with AI chat
+- **Paper Reader** — AI-native PDF reader → [paper.prismer.ai/library](https://paper.prismer.ai/library) 🚀
+- **Context Cloud** — Cloud-based context management → [prismer.cloud](https://prismer.cloud/) 🚀
+- **Context Cloud SDK** — TypeScript/JavaScript SDK for Context Cloud API
 - LaTeX Editor with live preview
 - Jupyter Notebook integration
 - Code Playground (WebContainer)

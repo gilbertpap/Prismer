@@ -10,11 +10,20 @@
 </p>
 
 <p align="center">
+  <a href="https://paper.prismer.ai/library">📖 Paper Reading</a> •
+  <a href="https://prismer.cloud/">☁️ Context Cloud</a> •
   <a href="docs/components.md">Components</a> •
-  <a href="docs/architecture.md">Architecture</a> •
-  <a href="docs/roadmap.md">Roadmap</a> •
-  <a href="CONTRIBUTING.md">Contributing</a>
+  <a href="docs/roadmap.md">Roadmap</a>
 </p>
+
+---
+
+## 🚀 Live Products
+
+| Product | URL | Description |
+|---------|-----|-------------|
+| **Paper Reading** | [paper.prismer.ai](https://paper.prismer.ai/library) | AI-native PDF reader with citation graphs |
+| **Context Cloud** | [prismer.cloud](https://prismer.cloud/) | Cloud-based context management & SDK |
 
 ---
 
@@ -54,9 +63,11 @@ LLMs fabricate citations. Prismer.AI solves this with a **Reviewer Agent** that 
 
 | Done | In Progress |
 |------|-------------|
-| ✅ Paper Reader | 🚧 Reviewer Agent |
-| ✅ LaTeX Editor | 🚧 npm package extraction |
-| ✅ Jupyter Integration | 🚧 Documentation site |
+| ✅ Paper Reader ([Live](https://paper.prismer.ai/library)) | 🚧 Reviewer Agent |
+| ✅ Context Cloud ([Live](https://prismer.cloud/)) | 🚧 npm package extraction |
+| ✅ Context Cloud SDK | 🚧 Documentation site |
+| ✅ LaTeX Editor | |
+| ✅ Jupyter Integration | |
 | ✅ Multi-agent system | |
 
 ## License

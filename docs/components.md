@@ -2,6 +2,53 @@
 
 Prismer.AI is built on modular, reusable components. Each package can be used independently in your own projects.
 
+## Live Products
+
+| Product | URL | Status |
+|---------|-----|--------|
+| Paper Reading | [paper.prismer.ai/library](https://paper.prismer.ai/library) | ✅ Live |
+| Context Cloud | [prismer.cloud](https://prismer.cloud/) | ✅ Live |
+
+---
+
+## @prismer/context-cloud-sdk
+
+TypeScript/JavaScript SDK for Context Cloud API.
+
+```typescript
+import { ContextCloudClient } from '@prismer/context-cloud-sdk';
+
+const client = new ContextCloudClient({
+  apiKey: 'your-api-key',
+  baseUrl: 'https://prismer.cloud/api'
+});
+
+// Create a context
+const context = await client.contexts.create({
+  name: 'My Research Project',
+  documents: ['paper1.pdf', 'paper2.pdf']
+});
+
+// Query with context
+const response = await client.query({
+  contextId: context.id,
+  question: 'What are the main findings?'
+});
+
+// Manage documents
+await client.documents.upload(context.id, file);
+const docs = await client.documents.list(context.id);
+```
+
+**Features:**
+- Full Context Cloud API coverage
+- TypeScript types included
+- Streaming response support
+- Document management
+- Context CRUD operations
+
+---
+
 ## @prismer/paper-reader
 
 AI-native PDF reader for research papers.
