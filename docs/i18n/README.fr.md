@@ -75,9 +75,9 @@ Contrairement aux outils qui ne gèrent que l'écriture (Overleaf) ou la prise d
 
 ## Comparaison
 
-| Fonctionnalité | Prismer.AI | OpenAI Prism | Overleaf | Notion |
-|----------------|:----------:|:------------:|:--------:|:------:|
-| Lecture de Papers | ✅ | ❌ | ❌ | ❌ |
+| Fonctionnalité | Prismer.AI | OpenAI Prism | Overleaf | Google Scholar |
+|----------------|:----------:|:------------:|:--------:|:--------------:|
+| Lecture de Papers | ✅ | ❌ | ❌ | ✅ |
 | Context Cloud | ✅ | ❌ | ❌ | ❌ |
 | Rédaction LaTeX | ✅ | ✅ | ✅ | ❌ |
 | Analyse de Données | ✅ | ❌ | ❌ | ❌ |

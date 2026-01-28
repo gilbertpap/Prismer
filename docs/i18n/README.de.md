@@ -75,9 +75,9 @@ Im Gegensatz zu Tools, die nur Schreiben (Overleaf) oder Notizen (Notion) behand
 
 ## Vergleich
 
-| Funktion | Prismer.AI | OpenAI Prism | Overleaf | Notion |
-|----------|:----------:|:------------:|:--------:|:------:|
-| Paper-Leser | ✅ | ❌ | ❌ | ❌ |
+| Funktion | Prismer.AI | OpenAI Prism | Overleaf | Google Scholar |
+|----------|:----------:|:------------:|:--------:|:--------------:|
+| Paper-Leser | ✅ | ❌ | ❌ | ✅ |
 | Context Cloud | ✅ | ❌ | ❌ | ❌ |
 | LaTeX-Schreiben | ✅ | ✅ | ✅ | ❌ |
 | Datenanalyse | ✅ | ❌ | ❌ | ❌ |

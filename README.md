@@ -75,9 +75,9 @@ Unlike tools that only handle writing (Overleaf) or note-taking (Notion), Prisme
 
 ## Comparison
 
-| Feature | Prismer.AI | OpenAI Prism | Overleaf | Notion |
-|---------|:----------:|:------------:|:--------:|:------:|
-| Paper Reading | ✅ | ❌ | ❌ | ❌ |
+| Feature | Prismer.AI | OpenAI Prism | Overleaf | Google Scholar |
+|---------|:----------:|:------------:|:--------:|:--------------:|
+| Paper Reading | ✅ | ❌ | ❌ | ✅ |
 | Context Cloud | ✅ | ❌ | ❌ | ❌ |
 | LaTeX Writing | ✅ | ✅ | ✅ | ❌ |
 | Data Analysis | ✅ | ❌ | ❌ | ❌ |
