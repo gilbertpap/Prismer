@@ -74,15 +74,15 @@ Unlike tools that only handle writing (Overleaf) or note-taking (Notion), Prisme
 
 | Feature | Prismer.AI | OpenAI Prism | Overleaf | Notion |
 |---------|:----------:|:------------:|:--------:|:------:|
-| Paper Reading | ✅ AI-native | ❌ | ❌ | ❌ |
+| Paper Reading | ✅ | ❌ | ❌ | ❌ |
 | Context Cloud | ✅ | ❌ | ❌ | ❌ |
 | LaTeX Writing | ✅ | ✅ | ✅ | ❌ |
-| Data Analysis | ✅ Jupyter | ❌ | ❌ | ❌ |
-| Code Execution | ✅ Sandbox | ❌ | ❌ | ❌ |
-| Citation Verification | ✅ Auto | ❌ | ❌ | ❌ |
+| Data Analysis | ✅ | ❌ | ❌ | ❌ |
+| Code Execution | ✅ | ❌ | ❌ | ❌ |
+| Citation Verification | ✅ | ❌ | ❌ | ❌ |
 | Multi-Agent | ✅ | ❌ | ❌ | ❌ |
-| **Open Source** | ✅ | ❌ | ❌ | ❌ |
-| **Self-Hosted** | ✅ | ❌ | ❌ | ❌ |
+| Open Source | ✅ | ❌ | ❌ | ❌ |
+| Self-Hosted | ✅ | ❌ | ❌ | ❌ |
 
 ---
 
