@@ -16,8 +16,8 @@
   <a href="#why-prismerai">Why Prismer.AI</a> •
   <a href="#open-source-components">Open Source</a> •
   <a href="#architecture">Architecture</a> •
-  <a href="#quick-start">Quick Start</a> •
-  <a href="#roadmap">Roadmap</a>
+  <a href="#roadmap">Roadmap</a> •
+  <a href="#contributing">Contributing</a>
 </p>
 
 ---
@@ -37,13 +37,14 @@ While tools like OpenAI Prism focus solely on LaTeX editing, Prismer.AI addresse
 | **Citation Management** | ✅ Basic | ✅ Auto-verification against databases (anti-hallucination) |
 | **Academic Review** | ❌ | ✅ Reviewer Agent validates citations & data |
 | **Multi-Agent Collaboration** | ❌ | ✅ Specialized agents work together |
-| **Open Source Components** | ❌ | ✅ Build your own research tools |
+| **Open Source** | ❌ | ✅ Build your own research tools |
 
 ### The Hallucination Problem
 
 LLMs in academic contexts have a critical flaw: **fabricated citations**. An AI can write beautifully but cite papers that don't exist.
 
 Prismer.AI solves this with the **Reviewer Agent** — a dedicated verification system that:
+
 - Cross-references every citation against arXiv, CrossRef, and Semantic Scholar
 - Validates that figures match the underlying data
 - Flags logical inconsistencies before they reach your paper
@@ -53,7 +54,7 @@ Prismer.AI solves this with the **Reviewer Agent** — a dedicated verification 
 
 ## Open Source Components
 
-Prismer.AI is built on a modular architecture. We're open-sourcing all core components by **March 31, 2026** to build an ecosystem:
+Prismer.AI is built on a modular architecture. We're open-sourcing the core components to enable researchers and developers to build their own tools.
 
 ### 📦 `@prismer/paper-reader`
 
@@ -208,13 +209,13 @@ const result = await orchestrator.run({
 ```
 
 **Agent Types:**
-- `BuildAgent` - Task execution & code generation
-- `PlanAgent` - Research planning & design
-- `LiteratureAgent` - Paper discovery & citation management
-- `DataAgent` - Data analysis & statistics
-- `PaperAgent` - LaTeX writing & document preparation
-- `VizAgent` - Visualization & figure generation
-- `ReviewerAgent` - Citation verification & quality review
+- `BuildAgent` — Task execution & code generation
+- `PlanAgent` — Research planning & design
+- `LiteratureAgent` — Paper discovery & citation management
+- `DataAgent` — Data analysis & statistics
+- `PaperAgent` — LaTeX writing & document preparation
+- `VizAgent` — Visualization & figure generation
+- `ReviewerAgent` — Citation verification & quality review
 
 ---
 
@@ -259,19 +260,19 @@ const result = await orchestrator.run({
             └───────────────┘ └───────────────┘ └───────────────┘
 ```
 
-### Key Differentiators
+### Key Design Principles
 
-1. **Multi-Agent Architecture**: Specialized agents collaborate on complex research tasks, rather than relying on a single monolithic LLM.
+1. **Multi-Agent Architecture** — Specialized agents collaborate on complex research tasks, rather than relying on a single monolithic LLM.
 
-2. **Phase-Based Execution**: Research is broken into phases (Literature Review → Data Analysis → Writing → Review), with mandatory checkpoints.
+2. **Phase-Based Execution** — Research is broken into phases (Literature Review → Data Analysis → Writing → Review), with mandatory checkpoints.
 
-3. **Citation Verification Pipeline**: Every reference passes through a verification layer before appearing in your paper.
+3. **Citation Verification Pipeline** — Every reference passes through a verification layer before appearing in your paper.
 
-4. **Knowledge-Grounded RAG**: Papers you read are indexed with precise anchors, enabling accurate citations like "(Author et al., 2024, p.4)".
+4. **Knowledge-Grounded RAG** — Papers you read are indexed with precise anchors, enabling accurate citations like "(Author et al., 2024, p.4)".
 
 ---
 
-## Prismer Cloud Integration
+## Cloud Integration
 
 All open source components can optionally integrate with [Prismer Cloud](https://prismer-doc.vercel.app/cloud/cloud-backend-roadmap) for enhanced features:
 
@@ -291,87 +292,20 @@ const cloud = new PrismerCloud({ apiKey: 'pk_xxx' });
 
 <PaperReader
   source={{ type: 'arxiv', id: '2301.00234' }}
-  cloudAdapter={cloud.createAdapter('paper-reader')}  // Enable cloud sync
+  cloudAdapter={cloud.createAdapter('paper-reader')}
 />
 ```
 
-**Use Cases:**
-- **Local Only**: Free, all data stays on your machine
-- **Cloud Sync**: Annotations and documents sync via `prismer://` URIs
-- **Full Platform**: Complete Prismer.AI research workspace experience
-
----
-
-## Quick Start
-
-### Prerequisites
-
-- Node.js 18+
-- pnpm or npm
-- Docker (optional, for local sandbox)
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/prismer-ai/prismer.git
-cd prismer
-
-# Install dependencies
-pnpm install
-
-# Set up environment variables
-cp .env.example .env.local
-# Edit .env.local with your API keys
-
-# Run development server
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) to see Prismer.AI.
-
-### Configuration
-
-```env
-# .env.local
-
-# LLM Provider (choose one)
-OPENAI_API_KEY=sk-...
-ANTHROPIC_API_KEY=sk-ant-...
-OPENROUTER_API_KEY=sk-or-...
-
-# Academic APIs
-SEMANTIC_SCHOLAR_API_KEY=...
-
-# Storage
-DATABASE_URL=postgresql://...
-S3_ENDPOINT=...
-QDRANT_URL=...
-
-# Sandbox (optional)
-E2B_API_KEY=...
-```
+**Deployment Options:**
+- **Self-Hosted** — Free, all data stays on your infrastructure
+- **Cloud Sync** — Annotations and documents sync via Prismer Cloud
+- **Full Platform** — Complete Prismer.AI research workspace experience
 
 ---
 
 ## Roadmap
 
-### 🎯 Q1 2026 (by March 31) — Open Source Launch
-
-**All components will be open-sourced by March 31, 2026:**
-
-| Week | Milestone |
-|------|-----------|
-| Feb 1-7 | `@prismer/academic-tools` v0.1 — arXiv, Semantic Scholar, Citation Verifier |
-| Feb 8-14 | `@prismer/paper-reader` v0.1 — PDF Reader with annotations |
-| Feb 15-21 | `@prismer/latex-editor` v0.1 — LaTeX Editor with KaTeX preview |
-| Feb 22-28 | `@prismer/jupyter-kernel` v0.1 — Notebook integration |
-| Mar 1-7 | `@prismer/code-sandbox` v0.1 — WebContainer playground |
-| Mar 8-14 | `@prismer/agent-protocol` v0.1 — Agent protocol specification |
-| Mar 15-21 | Documentation site launch (docs.prismer.ai) |
-| Mar 22-31 | Prismer.AI v1.0 platform release |
-
-### ✅ Completed (Current)
+### ✅ Completed
 - [x] Paper Reader with AI chat
 - [x] LaTeX Editor with live preview
 - [x] Jupyter Notebook integration
@@ -385,37 +319,16 @@ E2B_API_KEY=...
 - [ ] npm package extraction
 - [ ] Documentation site
 
-### 🔮 Post-Launch (Q2 2026+)
+### 🔮 Future
 - [ ] Collaborative research workspaces
 - [ ] Research project management
 - [ ] Publishing pipeline integration
 - [ ] Citation network visualization
-- [ ] Institutional deployment
+- [ ] Institutional deployment options
 
 ---
 
-## Contributing
-
-We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### Areas We Need Help
-
-- **Academic Domain Experts**: Help us understand research workflows better
-- **Frontend Engineers**: Improve component UX and accessibility
-- **ML Engineers**: Enhance RAG and citation verification
-- **Technical Writers**: Documentation and tutorials
-
----
-
-## Community
-
-- **Discord**: [Join our server](https://discord.gg/prismer) *(coming soon)*
-- **Twitter**: [@prismer_ai](https://twitter.com/prismer_ai) *(coming soon)*
-- **Blog**: [blog.prismer.ai](https://blog.prismer.ai) *(coming soon)*
-
----
-
-## Comparison with Other Tools
+## Comparison
 
 | Feature | Prismer.AI | OpenAI Prism | Overleaf | Notion |
 |---------|------------|--------------|----------|--------|
@@ -427,6 +340,19 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 | Multi-Agent | ✅ | ❌ | ❌ | ❌ |
 | Open Source | ✅ | ❌ | ❌ | ❌ |
 | Self-Hosted | ✅ | ❌ | ❌ | ❌ |
+
+---
+
+## Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### Areas We Need Help
+
+- **Academic Domain Experts** — Help us understand research workflows better
+- **Frontend Engineers** — Improve component UX and accessibility
+- **ML Engineers** — Enhance RAG and citation verification
+- **Technical Writers** — Documentation and tutorials
 
 ---
 
