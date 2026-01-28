@@ -9,16 +9,46 @@
 </p>
 
 <p align="center">
-  <a href="https://paper.prismer.ai/library"><strong>📖 Paper Reading</strong></a> •
-  <a href="https://prismer.cloud/"><strong>☁️ Context Cloud</strong></a>
+  <a href="https://paper.prismer.ai/library">Paper Reading</a> ·
+  <a href="https://prismer.cloud/">Context Cloud</a> ·
+  <a href="https://docs.prismer.ai">Documentation</a> ·
+  <a href="docs/roadmap.md">Roadmap</a>
 </p>
 
 <p align="center">
-  <a href="docs/components.md">Components</a> •
-  <a href="docs/architecture.md">Architecture</a> •
-  <a href="docs/roadmap.md">Roadmap</a> •
-  <a href="CONTRIBUTING.md">Contributing</a>
+  <a href="https://github.com/Prismer-AI/open-prismer/stargazers"><img src="https://img.shields.io/github/stars/Prismer-AI/open-prismer?color=ffcb47&labelColor=black&style=flat-square" alt="Stars"></a>
+  <a href="https://github.com/Prismer-AI/open-prismer/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue?labelColor=black&style=flat-square" alt="License"></a>
+  <a href="https://discord.gg/prismer"><img src="https://img.shields.io/discord/1234567890?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=flat-square" alt="Discord"></a>
+  <a href="https://twitter.com/prismer_ai"><img src="https://img.shields.io/twitter/follow/prismer_ai?style=flat-square&logo=x&labelColor=black" alt="Twitter"></a>
 </p>
+
+<p align="center">
+  <a href="./README.md"><img alt="English" src="https://img.shields.io/badge/English-d9d9d9"></a>
+  <a href="./README.zh-CN.md"><img alt="简体中文" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
+</p>
+
+---
+
+## 🚀 Live Products
+
+<table>
+<tr>
+<td align="center" width="50%">
+<a href="https://paper.prismer.ai/library">
+<img src="https://img.shields.io/badge/📖_Paper_Reading-Try_Now-blue?style=for-the-badge&labelColor=black" alt="Paper Reading">
+</a>
+<br/>
+<sub>AI-native PDF reader with citation graphs</sub>
+</td>
+<td align="center" width="50%">
+<a href="https://prismer.cloud/">
+<img src="https://img.shields.io/badge/☁️_Context_Cloud-Try_Now-purple?style=for-the-badge&labelColor=black" alt="Context Cloud">
+</a>
+<br/>
+<sub>Cloud-based context management & SDK</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -28,20 +58,83 @@ Prismer.AI is an **open-source research platform** that covers the entire academ
 
 Unlike tools that only handle writing (Overleaf) or note-taking (Notion), Prismer.AI integrates:
 
-- 📖 **Paper Reading** — AI-native PDF reader with citation graphs
-- 📊 **Data Analysis** — Jupyter notebooks with Python/R execution  
-- ✍️ **Paper Writing** — LaTeX editor with real-time preview
-- 🔍 **Citation Verification** — Auto-checks references against arXiv, CrossRef, Semantic Scholar
+| Feature | Description |
+|---------|-------------|
+| 📖 **Paper Reading** | AI-native PDF reader with citation graphs |
+| ☁️ **Context Cloud** | Cloud-based knowledge management with SDK |
+| 📊 **Data Analysis** | Jupyter notebooks with Python/R execution |
+| ✍️ **Paper Writing** | LaTeX editor with real-time preview |
+| 🔍 **Citation Verification** | Auto-checks references against academic databases |
+| 🤖 **Multi-Agent System** | Orchestrate specialized AI agents for research |
 
-## Why Open Source?
+---
 
-We believe research tools should be **transparent, extensible, and community-driven**.
+## Comparison
+
+| Feature | Prismer.AI | OpenAI Prism | Overleaf | Notion |
+|---------|:----------:|:------------:|:--------:|:------:|
+| Paper Reading | ✅ AI-native | ❌ | ❌ | ❌ |
+| Context Cloud | ✅ | ❌ | ❌ | ❌ |
+| LaTeX Writing | ✅ | ✅ | ✅ | ❌ |
+| Data Analysis | ✅ Jupyter | ❌ | ❌ | ❌ |
+| Code Execution | ✅ Sandbox | ❌ | ❌ | ❌ |
+| Citation Verification | ✅ Auto | ❌ | ❌ | ❌ |
+| Multi-Agent | ✅ | ❌ | ❌ | ❌ |
+| **Open Source** | ✅ | ❌ | ❌ | ❌ |
+| **Self-Hosted** | ✅ | ❌ | ❌ | ❌ |
+
+---
+
+## ✨ Key Features
+
+### 📖 Paper Reader
+
+AI-native PDF reader for research papers with:
+- Multi-document view with synchronized scrolling
+- Bi-directional citation graph
+- AI chat with paper context
+- Figure/table extraction
+- OCR data integration
+
+### ☁️ Context Cloud
+
+Cloud-based context management with full SDK support:
+
+```typescript
+import { ContextCloudClient } from '@prismer/context-cloud-sdk';
+
+const client = new ContextCloudClient({ apiKey: 'your-api-key' });
+
+// Create context and query
+const context = await client.contexts.create({ name: 'Research Project' });
+const response = await client.query({
+  contextId: context.id,
+  question: 'What are the main findings?'
+});
+```
+
+### ✍️ LaTeX Editor
+
+Modern LaTeX editor with:
+- Real-time KaTeX preview
+- Multi-file project support
+- Template library (IEEE, ACM, Nature, arXiv)
+- Smart error recovery with auto-fix
+
+### 🔍 Citation Verification
+
+LLMs fabricate citations. Prismer.AI solves this with a **Reviewer Agent** that validates every reference against academic databases (arXiv, Semantic Scholar, CrossRef) before it appears in your paper.
+
+---
+
+## 📦 Open Source Components
 
 All core components are MIT-licensed and can be used independently:
 
 | Package | Description |
 |---------|-------------|
 | `@prismer/paper-reader` | PDF reader with AI chat |
+| `@prismer/context-cloud-sdk` | Context Cloud TypeScript SDK |
 | `@prismer/latex-editor` | LaTeX editor with live preview |
 | `@prismer/academic-tools` | arXiv, Semantic Scholar APIs |
 | `@prismer/jupyter-kernel` | Browser-native notebooks |
@@ -50,27 +143,53 @@ All core components are MIT-licensed and can be used independently:
 
 👉 See [Component Documentation](docs/components.md) for usage examples.
 
-## The Hallucination Problem
+---
 
-LLMs fabricate citations. Prismer.AI solves this with a **Reviewer Agent** that validates every reference against academic databases before it appears in your paper.
+## 🛠️ Self-Hosting
 
-## Status
+Coming soon. Star this repo to get notified!
+
+```bash
+# Docker deployment (coming soon)
+docker run -d -p 3000:3000 prismer/prismer
+```
+
+---
+
+## 🗺️ Roadmap
 
 | Done | In Progress |
 |------|-------------|
-| ✅ Paper Reader ([Live](https://paper.prismer.ai/library)) | 🚧 Reviewer Agent |
-| ✅ Context Cloud ([Live](https://prismer.cloud/)) | 🚧 npm package extraction |
+| ✅ Paper Reader | 🚧 Reviewer Agent |
+| ✅ Context Cloud | 🚧 npm package extraction |
 | ✅ Context Cloud SDK | 🚧 Documentation site |
-| ✅ LaTeX Editor | |
-| ✅ Jupyter Integration | |
+| ✅ LaTeX Editor | 🚧 Self-hosting guide |
 | ✅ Multi-agent system | |
 
-## License
+See [full roadmap](docs/roadmap.md) for details.
 
-- **Components** (`@prismer/*`): MIT License
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) first.
+
+<a href="https://github.com/Prismer-AI/open-prismer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Prismer-AI/open-prismer" />
+</a>
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Prismer-AI/open-prismer&type=Date)](https://star-history.com/#Prismer-AI/open-prismer&Date)
+
+---
+
+## 📄 License
+
+- **Components** (`@prismer/*`): [MIT License](LICENSE.md)
 - **Platform**: Business Source License
-
-See [LICENSE.md](LICENSE.md) for details.
 
 ---
 
