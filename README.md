@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/prismerlogo.jpeg" alt="Prismer.AI" width="120" />
+  <img src="docs/prismerlogo.jpeg" alt="Prismer.AI" width="120" />
 </p>
 
 <h1 align="center">Prismer.AI</h1>
