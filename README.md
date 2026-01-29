@@ -196,13 +196,9 @@ If you find Prismer.AI helpful, please consider giving us a star! It helps us gr
 
 ### Star History
 
-<a href="https://star-history.com/#Prismer-AI/Prismer&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Prismer-AI/Prismer&type=Date&theme=dark&v=20260128" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Prismer-AI/Prismer&type=Date&v=20260128" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Prismer-AI/Prismer&type=Date&v=20260128" />
- </picture>
-</a>
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Prismer-AI/Prismer&type=date&legend=top-left)](https://www.star-history.com/#Prismer-AI/Prismer&type=date&legend=top-left)
 
 ---
 
