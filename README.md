@@ -12,7 +12,8 @@
   <a href="https://paper.prismer.ai/library">Paper Reading</a> ·
   <a href="https://prismer.cloud/">Context Cloud</a> ·
   <a href="https://docs.prismer.ai">Documentation</a> ·
-  <a href="docs/roadmap.md">Roadmap</a>
+  <a href="docs/roadmap.md">Roadmap</a> ·
+  <a href="https://www.youtube.com/watch?v=si1LOrBRCIg">Demo Video</a>
 </p>
 
 <p align="center">
@@ -29,6 +30,16 @@
   <a href="./docs/i18n/README.ja.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-d9d9d9"></a>
   <a href="./docs/i18n/README.fr.md"><img alt="Français" src="https://img.shields.io/badge/Français-d9d9d9"></a>
   <a href="./docs/i18n/README.de.md"><img alt="Deutsch" src="https://img.shields.io/badge/Deutsch-d9d9d9"></a>
+</p>
+
+---
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=si1LOrBRCIg">
+    <img src="https://img.youtube.com/vi/si1LOrBRCIg/maxresdefault.jpg" alt="Prismer.AI Demo Video" width="600" />
+  </a>
+  <br/>
+  <sub>🎬 <a href="https://www.youtube.com/watch?v=si1LOrBRCIg">Watch Demo: Idea to Paper, End-to-End</a></sub>
 </p>
 
 ---
