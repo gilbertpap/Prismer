@@ -36,10 +36,12 @@
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=si1LOrBRCIg">
-    <img src="https://img.youtube.com/vi/si1LOrBRCIg/maxresdefault.jpg" alt="Prismer.AI Demo Video" width="600" />
+    <picture>
+      <img src="https://img.youtube.com/vi/si1LOrBRCIg/maxresdefault.jpg" alt="▶ Watch Prismer.AI Demo" width="600" />
+    </picture>
   </a>
   <br/>
-  <sub>🎬 <a href="https://www.youtube.com/watch?v=si1LOrBRCIg">Watch Demo: Idea to Paper, End-to-End</a></sub>
+  <sub>▶️ <a href="https://www.youtube.com/watch?v=si1LOrBRCIg"><strong>Watch Demo: Idea to Paper, End-to-End</strong></a></sub>
 </p>
 
 ---
