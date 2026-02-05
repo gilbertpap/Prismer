@@ -1,0 +1,48 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/workspace",
+      "model": {
+        "primary": "google/gemini-2.5-flash"
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 2,
+      "subagents": {
+        "maxConcurrent": 4
+      }
+    }
+  },
+
+  "gateway": {
+    "mode": "local",
+    "port": 18900,
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "__REPLACE_ON_FIRST_RUN__"
+    }
+  },
+
+  "auth": {
+    "profiles": {}
+  },
+
+  "plugins": {
+    "entries": {}
+  },
+
+  "channels": {},
+
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  },
+
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto"
+  }
+}

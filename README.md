@@ -164,12 +164,19 @@ All core components are MIT-licensed and can be used independently:
 
 ## 🛠️ Self-Hosting
 
-Coming soon. Star this repo to get notified!
+Deploy OpenPrismer with a single command:
 
 ```bash
-# Docker deployment (coming soon)
-docker run -d -p 3000:3000 prismer/prismer
+docker run -d \
+  --name openprismer \
+  -p 3000:3000 \
+  -v openprismer-data:/workspace \
+  ghcr.io/prismer-ai/openprismer:latest
 ```
+
+Then open **http://localhost:3000** and configure your AI provider.
+
+See [docker/README.md](docker/README.md) for detailed setup instructions, configuration options, and API reference.
 
 ---
 
@@ -180,8 +187,9 @@ docker run -d -p 3000:3000 prismer/prismer
 | ✅ Paper Reader | 🚧 Reviewer Agent |
 | ✅ Context Cloud | 🚧 npm package extraction |
 | ✅ Context Cloud SDK | 🚧 Documentation site |
-| ✅ LaTeX Editor | 🚧 Self-hosting guide |
+| ✅ LaTeX Editor | |
 | ✅ Multi-agent system | |
+| ✅ Self-hosting (Docker) | |
 
 See [full roadmap](docs/roadmap.md) for details.
 
